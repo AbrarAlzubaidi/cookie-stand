@@ -1,3 +1,135 @@
-tr, td{
-    border:2cm solid black;
+table, th, td {
+    border: 3px groove rgb(190, 31, 31);
+    column-span: 5cm;
+    padding:0.5cm;
+    width: 25cm;
+    margin:auto;
+    margin-top: 3cm;
+    color: rgb(112, 54, 54);
+  }
+
+h1{
+    font-size: 60px;
+    color:rgb(112, 54, 54);
+    text-align: center;
+    text-decoration:underline overline dashed bisque;
+
+}
+body{
+    margin: auto;
+    background-color: rgba(224, 174, 115, 0.548);
+}
+
+a{
+    color:rgb(190, 31, 31);
+    text-decoration: none;
+    background-color: bisque;
+    font-size: 20px;
+    margin-left: 2cm;
+    float: left;
+
+}
+a:hover{
+    background-color: rgb(190, 31, 31);
+    color:bisque;
+
+}
+
+
+#h1MainPage{
+    margin-top: 1cm;
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top:9cm;
+    
+}
+#mainImage{
+/* width:15cm;     */
+position: relative;
+left: 5cm;
+}
+#mainIndex{
+    margin: 20cm;
+}
+
+#aIndex{
+    font-size: 40px;
+     margin: auto;
+     position: relative;
+     bottom: 8cm;
+     left:10cm;
+     border: dashed;
+     padding: 1cm;
+}
+#pIndex{
+    text-align: center;
+    background-color: bisque;
+    color: brown;
+    font-size: 40px;
+    margin-bottom: 2cm;
+    border-radius: 5cm 7cm;
+    border: dashed brown;
+    width:10cm;
+    height: 10cm;
+    padding-top: 1cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    position: relative;
+    bottom: 0.5cm;
+    opacity: 0.7;
+
+}
+article{
+    background-color:bisque;
+    width:5cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    font-size: 30px;
+    color: rgb(190, 31, 31);
+    border: dashed rgb(190, 31, 31) ;
+    border-radius: 1cm 2cm;
+    position: relative;
+    left:4cm;
+    bottom: 6cm;
+
+}
+h3{
+    font-size:45px;
+    padding-bottom: 0.5cm;
+}
+ol{
+    list-style:decimal;
+    padding-left: 0.5cm;
+}
+#article2{
+    background-color:rgb(190, 31, 31);
+    color:bisque;
+    padding-bottom: 2cm;
+    border-radius: 1cm ;
+    width:9cm;
+    font-size: 65px;
+    margin: 1cm;
+    position: relative;
+    left: 15cm;
+    bottom: 10cm;
+    opacity: 0.8;
+   
+}
+#contact{
+    position: relative;
+    top:7.9cm;
+    border: solid rgb(190, 31, 31);
+    padding: 0.2cm;
+
+}
+footer{
+    background-color: bisque;
+    color:brown;
+    text-align: center;
+    font-size: 30px;
 }
