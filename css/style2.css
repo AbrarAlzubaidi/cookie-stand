@@ -1,0 +1,233 @@
+body{
+    width:  100%;
+    background-color:#F0F0CB;
+    
+
+}
+main{
+    width: 800px;
+    margin-top: 5cm;
+    height: 50cm;  
+}
+#firstArticle h2{
+    font-family: 'Raleway', sans-serif;
+    font-size:40px ;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color:chocolate;
+}
+#firstArticle p{
+    float: left;
+    padding: 5px 12px;
+    font-size: large;
+    width: 10cm;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    color:#8D2828;
+    
+
+}
+#firstArticle{
+    border: solid #8D2828;
+    height: 12cm;
+    position: relative;
+    left: 4cm;
+    bottom: 3cm;
+    background-color: beige;
+
+}
+#familyImg {
+    width: 10cm;
+    height: 5cm;
+    float: right;
+    padding-right: 15px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 7.5cm;
+
+}
+#secondArticle{
+    border: solid #8D2828 ;
+    width: 9cm;
+    height:  9cm;
+    position: relative;
+    left: 2.5cm;
+    background-color: beige;
+}
+#secondArticle h4{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    color:teal;
+}
+#secondArticle ul{
+    list-style:circle;
+    padding-left: 1.5cm;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    color:#8D2828;
+}
+#fishesImg{
+    width:3.5cm;
+    height: 3.5cm;
+    position: relative;
+    left:7.4cm;
+    bottom: 9cm;
+}
+#firstDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    background-color: beige;
+    border: soild;
+    border-radius: 1cm 2cm;
+    height: 5cm;
+    position: relative;
+    left:12cm;
+    margin-bottom: 30px;
+}
+#cuttingImg{
+    border: soild #8D2828;
+    border-radius: 3cm 3cm;
+    position: relative;
+    bottom: 1cm;
+    left: 2cm;
+    height: 3.5cm;
+    width: 3.5cm;
+
+}
+#frostedImg{
+height: 3.5cm;
+width: 3.5cm;
+border: soild #8D2828;
+border-radius: 3cm 3cm;
+position: relative;
+top:3cm;
+left: 2cm;
+} 
+#firstDiv h2{
+    color:chocolate;
+    font-family: 'Raleway', sans-serif;
+    font-size:40px ;
+    padding-left: 3cm;
+    position: inherit;
+    bottom:1cm;
+}
+#thirdArticle{
+    width: 10cm;
+    position: relative;
+    left: 2.5cm;
+    top: 6cm;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+    color: #8D2828;
+
+}
+#thirdArticle img{
+    border-radius: 1cm 2cm ;
+}
+#thirdArticle p{
+    width: 18cm;
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    left: 10cm;
+    bottom: 8cm;
+
+}
+#headerMainPage{
+background-color:teal;
+height: 4cm;
+margin-left: 2cm;
+margin-right: 2cm;
+
+}
+#headerMainPage h1{
+    color:beige;
+    font-family: 'Nunito', sans-serif;
+    font-size: 80px;
+    padding-left: 3cm;
+}
+#headerMainPage img{
+    width: 9cm;
+    height: 3cm;
+    float: right;
+    position: relative;
+    bottom: 1.2cm;
+    right: 2cm;
+}
+#headerMainPage nav a{
+    text-decoration:none ;
+    color: beige;
+    border: solid beige ;
+    font-size: medium;
+    margin: 2cm;
+    padding:5px;
+    position: relative;
+    top: 1cm;
+    left: 2cm;
+    transition: all 350ms;
+}
+#headerMainPage nav a:hover{
+color:teal;
+background-color: beige;
+}
+#forthArticle{
+    border-color: #8D2828;
+    background-color: cadetblue;
+    width: 12cm;
+    height: 8cm;
+    position: relative;
+    top:5cm;
+    left: cm;
+}
+#forthArticle h4{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:beige;
+
+}
+#forthArticle ol{
+    padding-left: 10px;
+    list-style:circle;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    color:#F0F0CB;
+    padding-left: 45px;
+}
+#forthArticle p{
+    color:#F1ECC3;
+    width: 3cm;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    padding-left: 2cm;
+    padding-top: 2cm;
+    float:right;
+    position: relative;
+    right:2cm;
+    bottom: 5cm;
+}
+
+footer{
+    background-color: teal;
+    text-align: center;
+    color: beige;
+    font-size: large;
+    font-family: 'Lato', sans-serif;
+
+}
+footer img{
+    width: 5cm;
+    height: 2cm;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
